@@ -1,0 +1,27 @@
+{
+  "name": "powerbi-copilot-bridge-pro",
+  "version": "2.0.0",
+  "description": "Visual Power BI com IA e múltiplos métodos de comunicação",
+  "dependencies": {
+    "@types/d3": "7.4.3",
+    "core-js": "^3.32.0", 
+    "d3": "7.9.0",
+    "powerbi-visuals-api": "^5.11.0",
+    "powerbi-visuals-utils-formattingmodel": "6.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.14",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-powerbi-visuals": "^1.0.0",
+    "typescript": "5.5.4"
+  },
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "npx eslint .",
+    "build": "pbiviz package",
+    "deploy": "npm run build && echo 'Visual compilado com sucesso!'"
+  }
+}

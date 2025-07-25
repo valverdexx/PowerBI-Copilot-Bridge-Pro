@@ -1,0 +1,8 @@
+/api/chat /.netlify/functions/chat 200
+/api/debug /.netlify/functions/debug 200
+/api/chat-jsonp /.netlify/functions/chat-jsonp 200
+/api/chat-iframe /.netlify/functions/chat-iframe 200
+/api/chat-sse /.netlify/functions/chat-sse 200
+/api/chat-pixel /.netlify/functions/chat-pixel 200
+/api/storage /.netlify/functions/storage-bridge 200
+/api/health /.netlify/functions/health-check 200

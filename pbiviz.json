@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "chatBotVisual",
+    "displayName": "🤖 Assistente de BIAI",
+    "guid": "chatBotVisual12345",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Assistente inteligente que analisa dados do Power BI usando Copilot Studio. Conecte seu bot via Direct Line para interações avançadas com seus relatórios.",
+    "supportUrl": "https://github.com/yourusername/powerbi-chatbot-visual",
+    "gitHubUrl": "https://github.com/yourusername/powerbi-chatbot-visual"
+  },
+  "author": {
+    "name": "Lucas",
+    "email": "lucas.valverde3134@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

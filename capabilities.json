@@ -1,0 +1,38 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Dados para Contexto",
+            "name": "contextData", 
+            "kind": "GroupingOrMeasure",
+            "description": "Adicione campos que o chatbot deve considerar para análise"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": { "for": { "in": "contextData" }, "dataReductionAlgorithm": { "top": { "count": 1000 } } },
+                "values": { "select": [ { "for": { "in": "contextData" } } ], "dataReductionAlgorithm": { "top": { "count": 1000 } } }
+            }
+        }
+    ],
+    "objects": {
+        "chatSettings": {
+            "displayName": "🤖 Configurações da Ponte",
+            "properties": {
+                "directLineSecret": {
+                    "displayName": "URL da Função Netlify",
+                    "type": { "text": true }
+                }
+            }
+        }
+    },
+    "privileges": [
+        {
+            "name": "WebAccess",
+            "essential": true,
+            "parameters": [
+                "https://*.netlify.app/*" 
+            ]
+        }
+    ]
+}

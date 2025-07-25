@@ -1,0 +1,27 @@
+# Power BI Visual
+.tmp/
+dist/
+node_modules/
+*.pbiviz
+.vscode/
+.vs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug files
+webpack.statistics.dev.html
+webpack.statistics.prod.html
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
