@@ -18,7 +18,7 @@ exports.handler = async (event, context) => {
   try {
     console.log('🩺 Health check iniciado');
 
-    // 🔍 VERIFICAÇÕES BÁSICAS
+    // 🔍 VERIFICAÇÕES BÁSICASs
     const copilotSecret = process.env.COPILOT_SECRET;
     const memoryUsage = process.memoryUsage();
     const memoryMB = Math.round(memoryUsage.heapUsed / 1024 / 1024);
